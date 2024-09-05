@@ -1,0 +1,10 @@
+.footer{
+    /* background-color: var(--main-color); */
+    background-image: url("https://img.freepik.com/premium-photo/top-view-wooden-background_23-2148234292.jpg?w=740");
+    background-size: cover;
+}
+
+.footer .tasty{
+    color: var(--secondary-color);
+}
+

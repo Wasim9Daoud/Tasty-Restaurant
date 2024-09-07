@@ -1,0 +1,19 @@
+.home {
+  height: calc(100vh - 70px);
+  background-image: url("https://img.freepik.com/free-photo/spanish-manchego-cheese-with-dried-bay-leaves-walnut-old-wooden-surface_23-2148101627.jpg?t=st=1725372600~exp=1725376200~hmac=b7d5c45d1b9100ae3ee8141ec3de62fc52914aeafa1301d2efe05a80421d4eaf&w=826");
+  background-size: cover;
+}
+
+.home-mob {
+  height: calc(100vh - 70px);
+  background-image: url("https://img.freepik.com/premium-photo/outdoor-cafe-scene-twilight_1064559-8455.jpg?w=826");
+  /* background-image: url("https://img.freepik.com/premium-photo/3d-rendered-photos-cutlery-set-table-luxury-restaurant_1139417-2003.jpg?w=740"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.welcome h1 {
+  color: var(--secondary-color);
+}
+
+

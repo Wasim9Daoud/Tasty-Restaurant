@@ -1,0 +1,84 @@
+.main-section-2 {
+  background-size: cover;
+  /* background-position: center; */
+  background-image: url("https://img.freepik.com/premium-photo/3d-rendered-photos-cutlery-set-table-luxury-restaurant_1139417-2003.jpg?w=740");
+  /* background-image: url("https://img.freepik.com/premium-photo/top-view-wooden-background_23-2148234292.jpg?w=740"); */
+}
+.section-2container {
+  height: calc(100vh - 70px);
+}
+
+.tl {
+  position: absolute;
+  left: 1.5%;
+  animation: MoveBoxToRight 3s linear;
+}
+@keyframes MoveBoxToRight {
+  0% {
+    left: -200px;
+  }
+  50% {
+    left: 15%;
+  }
+  100% {
+    left: 1.5%;
+  }
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+.tr {
+  position: absolute;
+  right: 1.5%;
+  animation: MoveSBoxToLift 3s linear;
+}
+@keyframes MoveSBoxToLift {
+  0% {
+    top: -100%;
+  }
+  50% {
+    top: 20%;
+  }
+  100% {
+    top: 5%;
+  }
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+.bl {
+  position: absolute;
+  left: 1.5%;
+  animation: MoveSBoxToLRight 3s linear;
+}
+@keyframes MoveSBoxToLRight {
+  0% {
+    bottom: -100%;
+  }
+  50% {
+    bottom: 20%;
+  }
+  100% {
+    bottom: 5%;
+  }
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+.br {
+  position: absolute;
+  right: 1.5%;
+  animation: MoveSBoxToLeft 3s linear;
+}
+@keyframes MoveSBoxToLeft {
+  0% {
+    right: -200px;
+  }
+  50% {
+    right: 15%;
+  }
+  100% {
+    right: 1.5%;
+  }
+}
+
+/*-------------------------------------------*/
+/*-------------------------------------------*/

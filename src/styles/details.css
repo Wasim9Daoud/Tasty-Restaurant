@@ -1,0 +1,49 @@
+.details-page {
+  background-image: url("https://img.freepik.com/premium-photo/top-view-wooden-background_23-2148234292.jpg?w=740");
+}
+
+/*************************************/
+.details-img-container {
+  position: relative;
+}
+.details-img {
+  position: absolute;
+  top: 0;
+  animation: moveDetailsImage 3s linear 1;
+  border-radius: 30px;
+}
+@keyframes moveDetailsImage {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/***********************************/
+
+/***********************************/
+
+.details-description {
+  animation: moveDetailsTitle 3s linear 1;
+}
+
+.details-title,
+.details-desc {
+  right: 0px;
+  top: 0;
+}
+
+@keyframes moveDetailsTitle {
+  0% {
+    right: -400px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+/***********************************/

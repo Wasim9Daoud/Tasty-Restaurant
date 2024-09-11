@@ -1,0 +1,52 @@
+.over {
+  overflow: hidden;
+}
+
+.card-bg , .card-title{
+  background-color: var(--main-color);
+}
+
+.meal-page 
+{
+  background-image: url("https://img.freepik.com/premium-photo/top-view-wooden-background_23-2148234292.jpg?w=740");
+  background-size:contain;
+}
+
+.card-title{
+  border: 2px solid var(--main-color);
+  color: var(--secondary-color);
+}
+
+.card-container {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card-container::before {
+  content: " ";
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 75px);
+  background-color: var(--secondary-color);
+  width: 150px;
+  height: 420px;
+  z-index: -1;
+  animation: animate-card 4s linear infinite;
+}
+
+@keyframes animate-card {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.addIcon{
+  color: orangered;
+}
+.addIcon:hover {
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+}

@@ -1,0 +1,14 @@
+
+.login-btn {
+  border-color: var(--secondary-color);
+}
+
+.login-h{
+  height: calc(100vh - 70px);
+}
+
+.login-form-bg{
+  background-color: var(--main-color);
+  border:2px solid ;
+  border-color: var(--secondary-color) ;
+}

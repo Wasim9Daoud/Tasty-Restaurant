@@ -1,0 +1,27 @@
+.order-page {
+  background-image: url("https://img.freepik.com/premium-photo/top-view-wooden-background_23-2148234292.jpg?w=740");
+  background-size:cover;
+  min-height: calc(100vh - 70px);
+}
+
+.trans{
+  transition: all 1s ease-in-out;
+}
+.table-body-tr:hover {
+  background-color: var(--secondary-color);
+}
+
+/*****  order  ******/
+
+.palce-order-link {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+.palce-order-link:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all 0.5s linear;
+}

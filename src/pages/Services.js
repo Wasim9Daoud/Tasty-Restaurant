@@ -1,4 +1,5 @@
 // import React, { useState } from "react";
+import { useEffect } from "react";
 import ShowTypes from "../components/ShowTypes";
 import ShowTypesLoading from '../components/ShowTypesLoading'
 
@@ -9,6 +10,12 @@ const dessert = "https://www.themealdb.com/images/category/dessert.png"
 const Seafood = "https://www.themealdb.com/images/category/seafood.png"
 
 const Services = () => {
+
+  useEffect(
+    ()=>{
+      window.scrollTo(0,0)
+    }
+  )
 
   // categories
   const Categries = [

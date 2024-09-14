@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useEffect } from "react";
 import "../styles/order.css";
 import { Link } from "react-router-dom";
 
@@ -10,6 +10,12 @@ import { RiDeleteBin5Line } from "react-icons/ri";
 import swal from "sweetalert";
 
 const Order = () => {
+
+  useEffect(
+    ()=>{
+      window.scrollTo(0,0)
+    }
+  )
 
   const orderMeals = useSelector((state) => state.order);
   console.log("orderMeals",orderMeals)

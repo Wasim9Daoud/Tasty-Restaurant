@@ -20,7 +20,7 @@ const Footer = () => {
               <Link to="/">Tasty</Link>
             </span>
             lore loremlorem loreml oremlol loremlorem loremlorem loremlorem
-            lorem lorem loremlorem loremloreml loremloreml loremloreml loremlorem loremloreml loremloreml loremloreml
+            lorem lorem loremlorem loremloreml loremloreml loremloreml loremlorem
           </div>
 
           <div className="min-w-[15%] text-center">
@@ -59,7 +59,7 @@ const Footer = () => {
               <span>
                 <FaMobileAlt className="text-gray-400" />
               </span>
-              <span>099551038</span>
+              <span>0995510238</span>
             </div>
           </div>
 

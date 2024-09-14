@@ -1,8 +1,13 @@
-import React from "react";
+import React , { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/login.css";
 
 const SignUp = () => {
+  useEffect(
+    ()=>{
+      window.scrollTo(0,0)
+    }
+  )
   return (
     <div className="login-h w-full header">
       <div className="max-w-[1380px] mx-auto">

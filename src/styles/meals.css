@@ -1,0 +1,29 @@
+.moving-image img{
+    top: 0;
+    animation: moving-image 2s linear 1;
+}
+
+
+@keyframes moving-image {
+    0%{
+        top: -400px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+
+.moving-input{
+    animation: moving-input 2s linear 1;
+    right: -175px;
+}
+
+@keyframes moving-input {
+    0%{
+        right: -800px;
+    }
+    100%{
+        right: -175px;
+    }
+}

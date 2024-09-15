@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/header.css";
-import logo from "../Assets/IMAGES/TT-logo.png";
-import { FaRegUser, FaSistrix, FaTruck } from "react-icons/fa";
+import { FaRegUser , FaTruck } from "react-icons/fa";
 import { RiArrowUpDownLine } from "react-icons/ri";
 import { NavLink, Link } from "react-router-dom";
 
@@ -33,7 +32,7 @@ const Header = () => {
         <div className="max-h-[70px] max-w-[175px] flex items-center gap-4">
           <div className="max-w-[60px] md:max-w-[70px] max-h-[70px]">
             <Link to="/">
-              <img className=" min-w-[60px]" src={logo} alt="logo" />
+              <img className=" min-w-[60px]" src="https://img.freepik.com/premium-vector/food-logo-with-smile-spoon-fork-delicious-food-design-illustration-tongue-saliva_207371-61.jpg?w=740" alt="logo" />
             </Link>
           </div>
           <h1 className="tasty text-[25px] md:text-[30px]">Tasty</h1>

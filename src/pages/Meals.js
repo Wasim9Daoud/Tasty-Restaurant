@@ -34,7 +34,7 @@ const Meals = () => {
   useEffect(
     ()=>{
       getMeals()
-    },[category]
+    }
     )
 
   //   // search function

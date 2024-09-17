@@ -28,11 +28,11 @@ const Header = () => {
 
   return (
     <header className="sticky z-[10000] top-0 header md:px-4">
-      <nav className="mx-auto flex items-center justify-between bg-transparent h-[70px] max-w-[1380px] ">
-        <div className="max-h-[70px] max-w-[175px] flex items-center gap-4">
-          <div className="max-w-[60px] md:max-w-[70px] max-h-[70px]">
+      <nav className="mx-auto flex  pl-[5px] items-center justify-between bg-transparent h-[70px] max-w-[1380px] ">
+        <div className="max-h-[60px] max-w-[175px] flex items-center gap-4">
+          <div className="max-w-[60px] md:max-w-[70px] max-h-[60px]">
             <Link to="/">
-              <img className=" min-w-[60px]" src="https://img.freepik.com/premium-vector/food-logo-with-smile-spoon-fork-delicious-food-design-illustration-tongue-saliva_207371-61.jpg?w=740" alt="logo" />
+              <img className="rounded-xl min-w-[60px]" src="https://img.freepik.com/premium-vector/food-logo-with-smile-spoon-fork-delicious-food-design-illustration-tongue-saliva_207371-61.jpg?w=740" alt="logo" />
             </Link>
           </div>
           <h1 className="tasty text-[25px] md:text-[30px]">Tasty</h1>

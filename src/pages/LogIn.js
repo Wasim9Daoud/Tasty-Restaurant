@@ -11,7 +11,7 @@ const LogIn = () => {
   return (
     // login-page
     <div className="header w-full login-h">
-      <div className=" max-w-[1380px] mx-auto ">
+      <div className=" max-w-[1100px] mx-auto ">
         <div className="mx-auto  min-h-[500px]  max-w-[400px] sm:max-w-[500px] md:max-w-[700px] p-[20px]">
           <form className="flex min-h-[450px] flex-col justify-center login-form-bg opacity-[90%] rounded-lg my-[30px]">
             <h1 className=" text-white md:text-3xl text-2xl mx-auto mb-[30px]">Login</h1>

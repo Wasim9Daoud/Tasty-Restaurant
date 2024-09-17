@@ -59,7 +59,7 @@ const Order = () => {
 
   return (
     <div className="order-page w-full">
-      <div className="order-section max-w-[1380px] mx-auto">
+      <div className="order-section max-w-[1100px] mx-auto">
         <div className=" bg-transparent flex flex-col md:flex-row justify-between items-center py-[50px]">
           {/* the table */}
           <table className="login-form-bg opacity-[70%] rounded-xl w-[95%] md:w-[70%] mx-auto mb-[30px] md:mb-0">

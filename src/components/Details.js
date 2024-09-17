@@ -30,7 +30,7 @@ const Details = () => {
   return (
     meal ? (     
     <div className="bg min-h-[600px] details-page">
-      <div className="max-w-[1380px] mx-auto">
+      <div className="max-w-[1100px] mx-auto">
         <div className="page-container p-[10px] flex flex-col md:flex-row md:items-start justify-center items-center py-[10px] gap-[30px]">
             {/*image section {myMeal?.image} */}
           <div className="details-img-container w-[80%] md:w-[45%] h-[350px] md:h-[400px] text-center flex flex-col justify-center items-center">

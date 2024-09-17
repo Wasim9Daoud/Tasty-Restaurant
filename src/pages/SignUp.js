@@ -10,10 +10,10 @@ const SignUp = () => {
   )
   return (
     <div className="login-h w-full header">
-      <div className="max-w-[1380px] mx-auto">
+      <div className="max-w-[1100px] mx-auto">
         <div className="mx-auto max-w-[400px] sm:max-w-[500px] md:max-w-[700px] p-[20px]">
           <form className="flex flex-col min-h-[450px] justify-evenly py-[30px] login-form-bg opacity-[90%] rounded-lg my-[30px]">
-            <h1 className="text-white md:text-3xl text-2xl text-xl mx-auto my-[10px]">SignUp</h1>
+            <h1 className="text-white md:text-3xl text-2xl mx-auto my-[10px]">SignUp</h1>
             <input
               type="text"
               placeholder=" Your Name"

@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className="md:home home-mob">
-        <div className="h-[100%] mx-auto max-w-[1380px]">
+        <div className="h-[100%] mx-auto max-w-[1100px]">
               {/* button container */}
               <div className="flex flex-col pt-[135px] justify-center items-center w-[100%] h-[50%] ">
                 <h1 className="text-xl md:text-4xl text-white">welcome to <span className="font-bold bg-orange-600 rounded-lg duration-500 px-[5px] text-orange-800 mr-[10px]">Tasty</span>Restaurant</h1>

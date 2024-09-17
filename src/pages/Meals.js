@@ -56,7 +56,7 @@ const Meals = () => {
        {
         searchMeals ? (
           <div className="meal-page z-10">
-          <div className="max-w-[1380px] mx-auto">
+          <div className="max-w-[1100px] mx-auto">
             {/*first section ( image - search ) */}
             <div className=" w-full h-[275px] flex flex-col md:flex-row items-center justify-center ">
               {/* the main image */}

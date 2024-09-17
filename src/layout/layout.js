@@ -14,7 +14,7 @@ import Meals from "../pages/Meals";
 
 const Layout = () => {
   return (
-    <>
+    <div>
       <Header />
       <Routes>
       <Route path="/" element={<Home />}></Route>
@@ -28,7 +28,7 @@ const Layout = () => {
         <Route path="/services/:name" element={<Services/>}></Route>
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -3,8 +3,8 @@
 const DeatelsLoading = () => {
 
   return (
-    <div className="bg-gray-400 w-full h-full">
-      <div className=" max-w-[1380px] mx-auto">
+    <div className="bg-white w-full h-full">
+      <div className=" max-w-[1100px] mx-auto">
         <div className=" p-[10px] flex flex-col  justify-center md:items-start items-center pt-[50px] pb-[32px] gap-[30px]">
           <div className="animate-pulse bg-gray-300 rounded-xl w-[80%] md:w-[50%] h-[350px] text-center flex flex-col justify-center items-center">
           </div>

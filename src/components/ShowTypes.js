@@ -5,7 +5,7 @@ const ShowTypes = (props) => {
   return (
     <div>
       <div className="main-section-2 w-full">
-        <div className="section-2container max-w-[1380px] h-full mx-auto flex justify-center items-center">
+        <div className="section-2container max-w-[1100px] h-full mx-auto flex justify-center items-center">
           <div className="flex flex-col justify-center w-[95%] h-[100%] py-100px]">
             <div className="relative flex w-full h-[50%] md:flex-row justify-center items-center gap-[2%]">
               <div className="tl hover:scale-110 duration-1000 h-[92%] w-[47%] md:w-[40%] border-b-[3px] border-orange-800">

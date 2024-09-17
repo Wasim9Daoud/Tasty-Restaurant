@@ -5,7 +5,7 @@ const MealsLoading = () => {
 
   return (
     <div className=" z-10 ">
-      <div className="max-w-[1380px] mx-auto bg-gray-400 ">
+      <div className="max-w-[1100px] mx-auto bg-white ">
         {/*first section ( image - search ) */}
         <div className="animate-pulse w-full h-[275px] flex flex-col md:flex-row items-center justify-center ">
           {/* the main image */}

@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <header className="sticky z-[10000] top-0 header md:px-4">
-      <nav className="mx-auto flex  pl-[5px] items-center justify-between bg-transparent h-[70px] max-w-[1380px] ">
+      <nav className="mx-auto flex  pl-[5px] items-center justify-between bg-transparent h-[70px] max-w-[1100px] ">
         <div className="max-h-[60px] max-w-[175px] flex items-center gap-4">
           <div className="max-w-[60px] md:max-w-[70px] max-h-[60px]">
             <Link to="/">

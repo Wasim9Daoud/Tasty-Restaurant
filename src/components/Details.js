@@ -48,7 +48,7 @@ const Details = () => {
           <div className="details-description md:w-[50%] w-[80%] min-h-[500px] flex flex-col items-center justify-center relative">
             {/* category & area */}
             <div className="details-title w-full h-[30%] md:h-[10%] mt-[20px] md:mt-0 text-center text-white absolute">
-                <div className="border-b-2 w-full sm:text-xl text-lg font-bold  border-orange-800">{meal?.strMeal}</div>
+                <div className="border-b-2 w-full sm:text-xl text-lg font-bold  border-orange-800">{meal?.strMeal.slice(0,20)}</div>
                 <div className="flex justify-between items-center text-[20px]">
                   <div className="border-b-2 border-orange-800 px-[10px] rounded-xl">Category : {meal?.strCategory}</div>
                   <div className="border-b-2 border-orange-800 px-[10px] rounded-xl">Area : {meal?.strArea}</div>
